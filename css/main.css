@@ -4,3 +4,24 @@
     box-sizing: border-box;
     font-family: 'Rubik Mono One', sans-serif;
 }
+.container{
+    height: 100vh;
+    position: relative;
+}
+.bg-type-1{
+    background-color:red;
+}
+.txt-color-1{
+    color: yellow;
+}
+.card{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.description{
+    width: 800px;
+    text-align: center;
+    font-size:51px;
+}
